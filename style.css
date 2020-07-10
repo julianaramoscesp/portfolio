@@ -4,13 +4,26 @@
   width: 750px;
   margin: 0 auto;
   padding-top: 15px;
-  font-size: 30px;
   background: #ccc;
   height: 400px;
   font-family: 'Monaco', 'Courier New';
   text-align: left;
   font-size: 13px;
   color: #fafafa;
+}
+
+#education{
+  /* margin-top: 150px; */
+  /*border-radius: 5px;*/
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 15px;
+  /*background: #ccc;*/
+  height: 400px;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size: 13px;
+  /*color: #fafafa;*/
 }
 
 #console{
@@ -60,6 +73,26 @@
     /*margin-top: -30px;*/
 }
 
+#about a {
+    color: #3a92c8;
+    text-decoration: none;
+}
+
+#resume {
+    /* background-color: #D57878; */
+    background-color: #F0E68C;
+    height: 515px; /*465/
+    /*margin-top: -30px;*/
+}
+/*.titleBlock {
+  font-family: 'Monaco', 'Courier New';
+  width: 33.33333%;
+}
+
+.contentBlock{
+  font-family: 'Monaco', 'Courier New';
+  width: 66.66666%;
+}*/
 span.answer {
     color: #ccc;
 }
@@ -71,4 +104,8 @@ span.answer {
 .inner {
     max-width: 1024px;
     margin: 0 auto;
+}
+
+.right {
+  float: right;
 }
